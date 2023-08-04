@@ -1,0 +1,128 @@
+/* Write your CSS h*/
+
+.specific-back {
+  padding: 20px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.specific-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.specific-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.specific-head {
+  color: #616e7c;
+  margin-top: 20px;
+}
+
+.specific-amount {
+  color: #12022f;
+}
+
+.specific-rating-card {
+  display: flex;
+  align-items: center;
+}
+
+.specific-rating {
+  color: white;
+  background-color: #3b82f6;
+  padding: 10px;
+  height: 20px;
+  width: 70px;
+  border-radius: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 18px;
+}
+
+.specific-property {
+  color: #12022f;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.specific-rating-image {
+  width: 25px;
+  height: 25px;
+}
+
+.specific-quantity {
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.specific-button {
+  color: white;
+  background-color: #3b82f6;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.specific-list-container {
+  list-style: none;
+  margin: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.specific-amount-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.specific-similar-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.specific-list {
+  width: 90%;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .specific-details {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+  }
+
+  .specific-image {
+    width: 55%;
+  }
+
+  .specific-card {
+    margin-left: 20px;
+  }
+
+  .specific-list {
+    width: 30%;
+  }
+
+  .specific-list-container {
+    flex-direction: row;
+  }
+}
